@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/chat.png" alt="brand">
+            <h2>Simple Chat</h2>
+        </div>
+        <div class="message__area">
+            <!-- <div class="incoming message">
+                <h4>John Doe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, a nihil animi distinctio dolore,
+                    pariatur nulla porro assumenda fugiat quas maiores at maxime impedit inventore odio rerum vitae,
+                    sunt aperiam.</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Cindy</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, a nihil animi distinctio dolore,
+                    pariatur nulla porro assumenda fugiat quas maiores at maxime impedit inventore odio rerum vitae,
+                    sunt aperiam.</p>
+            </div> -->
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
